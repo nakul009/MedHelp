@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/mdtp_accent_color">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SetAlarm"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:shadowColor="@color/colorAccent"
+        android:textColor="@color/mdtp_date_picker_year_selector"/>
+    <Button
+        android:id="@+id/startSetDialog"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Set Target Time"/>
+    <TextView
+        android:id="@+id/alarmprompt"
+        android:textSize="30dp"
+        android:layout_width="fill_parent"
+        android:layout_margin="20dp"
+        android:shadowColor="@color/colorPrimary"
+        android:textColor="@color/mdtp_date_picker_year_selector"
+        android:layout_height="wrap_content" />
+</LinearLayout>

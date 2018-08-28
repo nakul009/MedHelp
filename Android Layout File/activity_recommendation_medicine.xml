@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="15px"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/symptomsofMedicine"
+        android:hint="Enter Symptoms"
+        android:layout_marginBottom="15px"/>
+
+
+    <Button
+        android:id="@+id/search_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Medicine Name"
+    />
+
+    <View style="@style/Divider"/>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonforsearchdoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/searchfordoctor" />
+
+</LinearLayout>
